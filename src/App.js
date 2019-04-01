@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Travel from "./Components/Travel";
+import Travels from "./Components/Travels";
 
 class App extends Component {
   render() {
@@ -33,7 +34,7 @@ class App extends Component {
           country="France"
           distance="582 km"
         />
-        
+        <Travels />
       </div>
     );
   }
